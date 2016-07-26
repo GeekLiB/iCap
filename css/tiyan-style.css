@@ -1,0 +1,146 @@
+*{
+	padding: 0;
+	margin:0;
+}
+.section{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 287px;
+	display: block;
+	position: relative;
+}
+.section .header{
+	width: 100%;
+	height: 70px;
+	display: block;
+}
+.section .header img{
+	display: block;
+	padding-left: 30px;
+	padding-top: 10px;
+	cursor: pointer;
+}
+.section .header ul{
+	list-style: none;
+	float: right;
+	position: absolute;
+	top: 20px;
+	right: 400px;
+
+
+}
+.section .header ul li{
+	float: left;
+	padding-left: 80px;
+}
+.section .header ul li a{
+	font-size: 20px;
+	font-weight: 500;
+	color: #282828;
+	text-decoration: none;
+}
+.section .header ul li a:hover{
+	color: #A9A9A9;
+	transition: all 0.3s;
+	opacity: 0.9;
+}
+.section .header .btn{
+	display: inline-block;
+	padding: 7px 27px;
+    border: 1px solid rgba(0, 152, 238, .5);
+    border-radius: 50px;
+    font-size: 16px;
+    color:#282828;
+}
+.section .header .btn1{
+	display: inline-block;
+	padding: 7px 27px;
+    border: 1px solid rgba(0, 152, 238, .5);
+    border-radius: 50px;
+    font-size: 16px;
+    color: #282828;
+}
+.section .header .btn{
+	position: absolute;
+	right: 150px;
+	top: 10px;
+}
+.section .header .btn1{
+	position: absolute;
+    right: 30px;
+    top: 10px;
+}
+.section .header .btn,.btn1{
+	text-decoration: none;
+}
+.section .header .btn:hover,.btn1:hover{
+	background: #7EC0EE;
+}
+.section .img{
+	background-image: url("../images/login_bg.png");	width: 1920px;
+	height: 220px;
+	display: block;
+}
+.biaodan{
+	width: 315px;
+	height: 270px;
+	display: block;
+	margin-top: 100px;
+	margin-left:40%;
+}
+.biaodan .text1{
+	width: 315px;
+	height: 32px;
+	display: block;
+
+}
+.biaodan .text2{
+	width: 315px;
+	height: 32px;
+	display: block;
+	margin-top: 30px;
+	
+}
+.biaodan .check{
+	width: 73px;
+	height: 20px;
+	display: block;
+	float: left;
+    position: relative;
+    top: -15px;
+    display: inline-block;
+    padding-left: 25px;
+    color: #333333;
+    font-size: 15px;
+    background: url("http://www.iclap.cn/home/public/images/selected_bg.png") no-repeat;
+    height: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.biaodan a{
+	display: block;
+	margin-top: 15px;
+	font-size: 14px;
+	margin-left: 250px;
+	text-decoration: none;
+	color:#333333;
+}
+.biaodan .btn{
+	width: 315px;
+	height: 42px;
+	display: block;
+	background:#2a78e1;
+	font-size: 20px;
+	color: #fff;
+	border: 0;
+}
+.biaodan .btn1{
+	width: 315px;
+	height: 42px;
+	display: block;
+	font-size: 15px;
+	border: 0;
+	margin-top: 20px;
+}

@@ -1,0 +1,521 @@
+*{
+	padding: 0;
+	margin:0;
+}
+.section{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 779px;
+	display: block;
+	position: relative;
+	background-image: url("../images/head.jpg");
+}
+.section .header{
+	width: 100%;
+	height: 70px;
+	display: block;
+}
+.section .header img{
+	display: block;
+	padding-left: 30px;
+	padding-top: 10px;
+	cursor: pointer;
+}
+.section .header ul{
+	list-style: none;
+	float: right;
+	position: absolute;
+	top: 10px;
+	right: 400px;
+
+}
+.section .header ul li{
+	float: left;
+	padding-left: 80px;
+}
+.section .header ul li a{
+	font-size: 20px;
+	font-weight: 500;
+	color: #fff;
+	text-decoration: none;
+}
+.section .header ul li a:hover{
+	color: #A9A9A9;
+	transition: all 0.3s;
+	opacity: 0.9;
+}
+.section .header .btn{
+	display: inline-block;
+	padding: 7px 27px;
+    border: 1px solid rgba(255, 255, 255, .5);
+    border-radius: 50px;
+    font-size: 16px;
+    color: #fff;
+}
+.section .header .btn1{
+	display: inline-block;
+	padding: 7px 27px;
+    border: 1px solid rgba(255, 255, 255, .5);
+    border-radius: 50px;
+    font-size: 16px;
+    color: #fff;
+}
+.section .header .btn{
+	position: absolute;
+	right: 150px;
+	top: 10px;
+}
+.section .header .btn1{
+	position: absolute;
+    right: 30px;
+    top: 10px;
+}
+.section .header .btn,.btn1{
+	text-decoration: none;
+}
+.section .header .btn:hover,.btn1:hover{
+	background: #7EC0EE;
+}
+.section .words{
+	position: absolute;
+	top: 200px;
+	left: 150px;
+	width: 441px;
+	height: auto;
+	display: block;
+}
+.section .words h1{
+    font-size: 30px;
+    color: #fff;
+    line-height: 30px;
+    padding-top: 20px;
+}
+.section .words .question{
+	font-size: 50px;
+    color: #fff;
+    line-height: 30px;
+    padding-top: 50px;
+}
+.section .words .gong{
+    font-size: 20px;
+    color: #fff;
+    line-height: 30px;
+    padding-top: 50px;
+
+}
+.section .img{
+	background-image: url("../images/header.png");
+	position: absolute;
+	right: 50px;
+	top: 150px;
+	width: 577px;
+	height: 653px;
+	display: block;
+
+}
+.section .btn2{
+	display: inline-block;
+	padding: 17px 47px;
+    border: 1px solid rgba(255, 255, 255, .5);
+    border-radius: 50px;
+    font-size: 16px;
+    color: #fff;
+    background: #EEEE00;
+    text-decoration: none;
+    position: absolute;
+    top: 500px;
+    left: 200px;
+    transition: all 0.3s;
+}
+.section1{
+	width: 100%;
+	height: 700px;
+	display: block;
+	position: relative;
+}
+.section1 img{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.section1 .right{
+	width: 700px;
+	height: 350px;
+	display: block;
+    float: right;
+	margin-top: 150px;
+	position: relative;
+	margin-right: 150px;
+}
+.section1 .right .right1{
+	width: 309px;
+	height: 131px;
+	display: block;
+}
+.section1 .right .right1 .image1{
+	display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: url("http://www.iclap.cn/home/public2/images/icon_index_postil.png") no-repeat 0 0;
+    vertical-align: middle;
+    float: left;
+}
+.section1 .right .right1 p{
+	font-size: 20px;
+	color: #D1D1D1;
+	padding-top: 10px;
+	padding-left: 115px;
+
+}
+.section1 .right .right2{
+	width: 309px;
+	height: 131px;
+	display: block;
+	float: left;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.section1 .right .right2 .image1{
+	display: inline-block;
+    width: 100px;
+    height: 110px;
+    background: url("http://www.iclap.cn/home/public2/images/icon_index_postil.png") no-repeat 0 -193px;
+    vertical-align: middle;
+    float: left;
+}
+.section1 .right .right2 p{
+	font-size: 20px;
+	color: #D1D1D1;
+	padding-top: 10px;
+	padding-left: 115px;
+
+}
+.section1 .right .right3{
+	width: 309px;
+	height: 131px;
+	display: block;
+	float: left;
+	position: absolute;
+	top: 160px;
+	left: 0;
+}
+.section1 .right .right3 .image1{
+	display: inline-block;
+    width: 100px;
+    height: 115px;
+    background: url("http://www.iclap.cn/home/public2/images/icon_index_postil.png") no-repeat 0 -388px;
+    vertical-align: middle;
+    float: left;
+}
+.section1 .right .right3 p{
+	font-size: 20px;
+	color: #D1D1D1;
+	padding-top: 10px;
+	padding-left: 115px;
+
+}
+.section1 .right .right4{
+	width: 309px;
+	height: 131px;
+	display: block;
+	float: left;
+	position: absolute;
+	top: 160px;
+	right: 0;
+}
+.section1 .right .right4 .image1{
+	display: inline-block;
+    width: 100px;
+    height: 115px;
+    background: url("http://www.iclap.cn/home/public2/images/icon_index_postil.png") no-repeat 0 -586px;
+    vertical-align: middle;
+    float: left;
+}
+.section1 .right .right4 p{
+	font-size: 20px;
+	color: #D1D1D1;
+	padding-top: 10px;
+	padding-left: 115px;
+}
+.section2{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.section2 p{
+	font-size: 50px;
+	font-weight: 900;
+	color: #87CEFF;
+	padding-top: 10px;
+	margin-left: 100px;
+}
+.section2 .btns{
+	width: auto;
+	height:auto;
+	display: block;
+	padding-top: 100px;
+	margin-left: 40px;
+}
+.section2 .btns a{
+	display: inline-block;
+	padding: 17px 47px;
+    border: 1px solid rgba(102, 102, 102, .5);
+    border-radius: 50px;
+    font-size: 20px;
+    color: #666;
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.section2 .btns a:hover{
+	background: #EEB4B4;
+}
+.section2 .list{
+	width: 400px;
+	height: auto;
+	display: block;
+	position: relative;
+
+}
+.section2 img{
+	margin-left: 650px;
+	margin-top: -60px;
+	background: #fff;
+	border: 0;
+}
+.section3 h1{
+	padding-top: 120px;
+	font-size: 40px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+}
+.section3{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-image: url("../images/bg1.jpg");
+}
+.section3 p{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 50px;
+	color: #fff;	
+}
+.section3 img{
+	margin-left: 250px;
+	padding-top: 50px;
+}
+.section4{
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.section4 h1{
+	padding-top: 120px;
+	font-size: 40px;
+	font-weight: 700;
+	color: #C1C1C1;
+	text-align: center;
+}
+.section4 p{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 50px;
+	color: #C1C1C1;	
+}
+.section4 img{
+	margin-left: 350px;
+	padding-top: 50px;
+}
+.section5{
+	width: 100%;
+	height: 370px;
+	position: relative;
+	background-image: url("../images/h.png");
+}
+.section5 h1{
+	padding-top: 60px;
+	font-size: 40px;
+	font-weight: 700;
+	color:#fff;
+	text-align: center;
+}
+.section5 p{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 20px;
+	color: #fff;	
+}
+.section5 a{
+   display: inline-block;
+   padding: 17px 47px;
+   border: 1px solid rgba(102,102,102,.5);
+   color: #fff;
+   font-size: 30px;
+   font-weight: 700;
+   text-decoration: none;
+   border-radius: 50px;
+   margin-left: 45%;
+   margin-top: 5%;
+   background:#EEEE00;
+}
+.footer{
+	width: 100%;
+	height: 230px;
+	display: block;
+	background:#202226;
+	position: relative;
+}
+.footer .frist{
+	width: 72px;
+	height: 121px;
+	display: block;
+    padding-top: 30px;
+    margin-left: 100px;
+}
+.footer .frist ul{
+	list-style: none;
+}
+.footer .frist .ye{
+	font-size: 20px;
+	font-weight: 500;
+}
+.footer .frist ul li{
+	padding-top: 10px;
+}
+.footer .frist ul li a{
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+}
+.footer .frist ul li a:hover{
+	color: #BFBFBF;
+}
+.footer .second{
+	position: absolute;
+	width: 72px;
+	height: 121px;
+	display: block;
+    top: 30px;
+    left:300px;
+}
+.footer .second ul{
+	list-style: none;
+}
+.footer .second .ye{
+	font-size: 20px;
+	font-weight: 500;
+}
+.footer .second ul li{
+	padding-top: 10px;
+}
+.footer .second ul li a{
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+}
+.footer .second ul li a:hover{
+	color: #BFBFBF;
+}
+.footer .third{
+	width: 72px;
+	height: 121px;
+	display: block;
+    position: absolute;
+    top: 30px;
+    left: 500px;
+}
+.footer .third ul{
+	list-style: none;
+}
+.footer .third .ye{
+	font-size: 20px;
+	font-weight: 500;
+}
+.footer .third ul li{
+	padding-top: 10px;
+}
+.footer .third ul li a{
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+}
+.footer .third ul li a:hover{
+	color: #BFBFBF;
+}
+.footer .fouth{
+	width: 200px;
+	height: 121px;
+	display: block;
+    position: absolute;
+    top: 30px;
+    left: 800px;
+}
+.footer .fouth ul{
+	list-style: none;
+}
+.footer .fouth .ye{
+	font-size: 20px;
+	font-weight: 500;
+}
+.footer .fouth span{
+	width: 22px;
+	height: 22px;
+	display: block;
+}
+.footer .fouth .y{
+	background:url("http://www.iclap.cn/home/public2/images/foot-share.png") 0 0 no-repeat;
+}
+.footer .fouth .u{
+	background:url("http://www.iclap.cn/home/public2/images/foot-share.png") -32px 0 no-repeat;
+    margin-top: -22px;
+    margin-left: 40px;
+}
+.footer .fouth .i{
+	background:url("http://www.iclap.cn/home/public2/images/foot-share.png") -64px 0 no-repeat;
+    margin-left: 80px;
+    margin-top: -22px;
+}
+.footer .fouth ul li{
+	padding-top: 5px;
+}
+.footer .fouth li a{
+	text-align: left;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+}
+.footer .fifth{
+	width: 180px;
+	height: auto;
+	display: block;
+    position: absolute;
+    top: 30px;
+    right: 100px;
+}
+.footer .fifth ul{
+	list-style: none;
+}
+.footer .fifth .ye{
+	font-size: 20px;
+	font-weight: 500;
+}
+.footer .fifth ul li{
+	padding-top: 5px;
+}
+.footer .fifth ul li a{
+	text-align:left;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
